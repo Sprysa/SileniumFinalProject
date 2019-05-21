@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class CheckMessageBO {
+
   private WebDriver driver;
   private WebDriverWait wait;
   private GmailHomePO gmailHomePO;
@@ -21,15 +22,17 @@ public class CheckMessageBO {
     this.wait = wait;
   }
 
-  public boolean checkIsMessageSent() {
+  public boolean checkIfMessageSent() {
+    LOG.info("Check if message sent.");
     gmailHomePO = new GmailHomePO(driver, wait);
     return gmailHomePO.isMessageSent();
   }
 
-  public boolean checkIsMailInSentFolder(MailModel mail) {
+  public boolean checkIfMailInSentFolder(MailModel mail) {
     LOG.info("Open 'Sent' folder.");
     gmailHomePO.openSentMailsPage();
-    new SentMailsPO(driver).openLastMail();
+    new SentMailsPO(driver, wait).openLastMail();
+    LOG.info("Check if message in 'Sent' folder.");
     String expectedSubject = mail.getSubject();
     String expectedMessage = mail.getMessage();
     return new GmailMessageWidowPO(driver).checkIsItSameMail(expectedSubject, expectedMessage);

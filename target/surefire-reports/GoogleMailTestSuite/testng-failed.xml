@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [GoogleMailTestSuite]" parallel="methods" data-provider-thread-count="3">
-  <test thread-count="3" verbose="0" name="GmailTest(failed)" parallel="methods">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [GoogleMailTestSuite]" data-provider-thread-count="3">
+  <test thread-count="5" verbose="0" name="GmailTest(failed)">
     <classes>
       <class name="com.epam.GoogleMailTestSuite">
         <methods>
-          <include name="openGmailAndLogin" invocation-numbers="2 0 1 3 4"/>
+          <include name="GmailTest" invocation-numbers="1"/>
+          <include name="deinit"/>
           <include name="init"/>
         </methods>
       </class> <!-- com.epam.GoogleMailTestSuite -->

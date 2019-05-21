@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginBO {
+
   private WebDriver driver;
   private WebDriverWait wait;
 
@@ -27,7 +28,10 @@ public class LoginBO {
     loginPO.typePasswordAndSubmit(user.getPassword());
   }
 
-  public boolean checkIsUserLoged(UserModel user) {
-    return new GmailHomePO(driver, wait).composeButtonIsVisible() & driver.getTitle().contains(user.getLogin());
+  public boolean checkIsUserLogged(UserModel user) {
+    GmailHomePO gmailHomePO = new GmailHomePO(driver, wait);
+    boolean isComposeButtonVisible = gmailHomePO.composeButtonIsVisible();
+    boolean isTitleContainsLogin = driver.getTitle().contains(user.getLogin());
+    return isComposeButtonVisible & isTitleContainsLogin;
   }
 }

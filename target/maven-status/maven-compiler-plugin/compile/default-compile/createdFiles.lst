@@ -1,7 +1,12 @@
-com\epam\driver\DriverManager.class
-com\epam\PO\GmailMessageWidowPO.class
 com\epam\PO\GmailMessageWidgetPO.class
 com\epam\PO\SentMailsPO.class
 com\epam\driver\DriverPool.class
+com\epam\BO\SendMessageBO.class
 com\epam\PO\GmailLoginPO.class
 com\epam\PO\GmailHomePO.class
+com\epam\DataProvider\MailDataConst.class
+com\epam\PO\GmailMessageWidowPO.class
+com\epam\BO\LoginBO.class
+com\epam\model\UserModel.class
+com\epam\BO\CheckMessageBO.class
+com\epam\model\MailModel.class
