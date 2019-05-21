@@ -58,12 +58,12 @@ public class GoogleMailTestSuite {
   }
 
   @AfterMethod
-  public void deinit() {
+  private void deinit() {
     DriverPool.quit();
   }
 
   @DataProvider(name = "loginData", parallel = true)
-  public Object[] loginData() {
+  private Object[] loginData() {
     return new Object[]{new UserModel(LOGIN, PASSWORD), new UserModel(LOGIN, PASSWORD),
         new UserModel(LOGIN, PASSWORD), new UserModel(LOGIN, PASSWORD),
         new UserModel(LOGIN, PASSWORD)};

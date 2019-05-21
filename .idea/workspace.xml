@@ -2,43 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22bef111-4a0e-4e06-89e0-1e2ea9fb85c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/BO/CheckMessageBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/BO/CheckMessageBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/BO/LoginBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/BO/LoginBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/BO/SendMessageBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/BO/SendMessageBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/PO/SentMailsPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/PO/SentMailsPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/driver/DriverPool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/model/MailModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/model/MailModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/model/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/model/UserModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/GoogleMailTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/GoogleMailTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/BO/CheckMessageBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/BO/CheckMessageBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/BO/LoginBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/BO/LoginBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/BO/SendMessageBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/BO/SendMessageBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/PO/SentMailsPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/PO/SentMailsPO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/driver/DriverPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/driver/DriverPool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/GoogleMailTestSuite/GmailTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/GoogleMailTestSuite/GmailTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/GoogleMailTestSuite/GmailTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/GoogleMailTestSuite/GmailTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/GoogleMailTestSuite/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.epam.GoogleMailTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.epam.GoogleMailTestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/GoogleMailTestSuite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/GoogleMailTestSuite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/GoogleMailTestSuite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/GoogleMailTestSuite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/GoogleMailTestSuite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/GoogleMailTestSuite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/GoogleMailTestSuite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/GoogleMailTestSuite/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/GoogleMailTestSuite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/GoogleMailTestSuite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/GoogleMailTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/GoogleMailTestSuite.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/GoogleMailTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            <state relative-caret-position="156">
+              <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3035#3036#0" expanded="true" />
@@ -64,10 +28,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/driver/DriverPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
+            <state relative-caret-position="-191">
               <caret line="11" column="68" lean-forward="true" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -134,10 +98,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/epam/BO/LoginBO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/BO/SendMessageBO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/model/MailModel.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/epam/GoogleMailTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/model/UserModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/PO/GmailLoginPO.java" />
         <option value="$PROJECT_DIR$/src/test/java/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/GoogleMailTestSuite.java" />
       </list>
     </option>
   </component>
@@ -286,7 +250,7 @@
     <property name="SearchEverywhereHistoryKey" value="maxSession&#9;PSI&#9;JAVA://sun.security.pkcs11.SessionManager#maxSessions&#10;configuration.&#9;FILE&#9;jar://C:/Users/Bogdan/.m2/repository/org/testng/testng/7.0.0-beta3/testng-7.0.0-beta3.jar!/org/testng/internal/Configuration.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558400097060" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558401284268" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Epam course/Epam course home tasks/TestAutomationLab8Selenium-Olena_Salo/WebDriverProject" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -401,7 +365,7 @@
       <option name="presentableId" value="Default" />
       <updated>1557678129486</updated>
       <workItem from="1557678139388" duration="11613000" />
-      <workItem from="1557778929334" duration="78191000" />
+      <workItem from="1557778929334" duration="78636000" />
     </task>
     <servers />
   </component>
@@ -438,10 +402,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89804000" />
+    <option name="totallyTimeSpent" value="90249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -459,7 +424,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.64811784" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.45008183" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.30769232" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -687,18 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/GoogleMailTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3035#3036#0" expanded="true" />
-            <element signature="e#3062#3063#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/BO/LoginBO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -718,13 +671,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/driver/DriverPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
+        <state relative-caret-position="-191">
           <caret line="11" column="68" lean-forward="true" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#393#404#0" expanded="true" />
             <element signature="e#676#677#0" expanded="true" />
             <element signature="e#705#706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/GoogleMailTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3035#3036#0" expanded="true" />
+            <element signature="e#3062#3063#0" expanded="true" />
           </folding>
         </state>
       </provider>
